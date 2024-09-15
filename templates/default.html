@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Theme</title>
+    <style>
+        /* Default Boilerplate CSS for Dark Mode Theme */
+        :root {
+            --background-color: #121212;
+            --primary-color: #bb86fc;
+            --secondary-color: #03dac6;
+            --text-color: #e0e0e0;
+            --font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: var(--font-family);
+            margin-left: 10%;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--secondary-color);
+        }
+
+        header, footer {
+            background-color: #1f1f1f;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1, footer p {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            border: none;
+            color: var(--text-color);
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        input, textarea {
+            background-color: #2c2c2c;
+            border: 1px solid #444;
+            color: var(--text-color);
+            padding: 0.5rem;
+            font-family: var(--font-family);
+        }
+
+        input:focus, textarea:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- REPLACE_ME_WITH_BODY -->
+    <footer>
+        <p>Made in Luau with Lynx web framework: <a href="https://lynx.land/">Lynx Docs</a> </p>
+    </footer>
+</body>
+</html>
